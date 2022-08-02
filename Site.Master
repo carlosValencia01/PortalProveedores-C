@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PortalProveedores.SiteMaster" %>
 
+<%@ Register assembly="DevExpress.Web.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
 <!DOCTYPE html>
 
 <html lang="es">
@@ -7,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <title><%: Page.Title %>- Mi aplicación ASP.NET</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -58,14 +60,40 @@
                 </div>
             </div>
         </div>
+
+        <%--Body Content--%>
         <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" OnLoad="MainContent_Load">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
-            </footer>
         </div>
+        
+
+
+        <dx:ASPxPanel ID="FooterPane" runat="server" FixedPosition="WindowBottom" ClientInstanceName="footerPane" CssClass="footerPane">
+
+
+            <SettingsAdaptivity HideAtWindowInnerWidth="500" />
+            <Styles>
+                <Panel CssClass="panel"></Panel>
+            </Styles>
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                        <div class="footerMenu">
+                            
+                        </div>
+                        <div class="copyright">
+                            <dx:ASPxLabel ID="ASPxLabel2" runat="server">
+                            </dx:ASPxLabel>
+                        </div>
+                </dx:PanelContent>
+            </PanelCollection>
+
+
+        </dx:ASPxPanel>
+
+
+
 
     </form>
 </body>

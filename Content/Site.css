@@ -29,3 +29,27 @@ textarea {
         padding: 0;
     }
 }
+
+/* Footer */
+.dxpnl-edge.b.footerPane {
+    background-color: #EDEDED;
+}
+
+    .dxpnl-edge.b.footerPane.panel {
+        padding: 0;
+    }
+
+.footerMenu {
+    float: right;
+    padding-top: 7px;
+}
+
+.copyright {
+    float: left;
+    margin: 30px 15px 11px;
+}
+
+.content {
+    padding: 5px;
+}
+
