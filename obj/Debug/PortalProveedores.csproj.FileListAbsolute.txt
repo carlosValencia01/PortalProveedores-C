@@ -51,12 +51,6 @@ C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\obj\Debug\PortalProv
 C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\obj\Debug\PortalProveedores.csproj.CopyComplete
 C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\obj\Debug\PortalProveedores.dll
 C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\obj\Debug\PortalProveedores.pdb
-C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Data.v20.2.dll
-C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Printing.v20.2.Core.dll
-C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.RichEdit.v20.2.Core.dll
-C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Web.ASPxThemes.v20.2.dll
-C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Web.Resources.v20.2.dll
-C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Web.v20.2.dll
 C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Pdf.v20.2.Core.dll
 C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Pdf.v20.2.Drawing.dll
 C:\Users\carlos.valencia\source\repos\WEB\PortalProveedores\bin\DevExpress.Office.v20.2.Core.dll
